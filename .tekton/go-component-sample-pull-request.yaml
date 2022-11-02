@@ -10,6 +10,7 @@ metadata:
     pipelinesascode.tekton.dev/on-target-branch: '[main,master]'
   creationTimestamp: null
   labels:
+    label1: value1
     appstudio.openshift.io/application: go-application-sample
     appstudio.openshift.io/component: go-component-sample
     pipelines.appstudio.openshift.io/type: build
