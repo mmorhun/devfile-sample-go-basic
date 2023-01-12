@@ -43,7 +43,7 @@ spec:
     - description: Source Repository URL
       name: git-url
       type: string
-    - default: "1"
+    - default: ""
       description: Revision of the Source Repository
       name: revision
       type: string
