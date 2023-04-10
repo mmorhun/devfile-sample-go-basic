@@ -21,7 +21,7 @@ spec:
   - name: git-url
     value: '{{repo_url}}'
   - name: output-image
-    value: :{{revision}}
+    value: quay.io/mmorhun-org/test/go-application-sample/go-component-sample:{{revision}}
   - name: path-context
     value: .
   - name: revision
